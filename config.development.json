@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:7000/",
+  "server": {
+    "port": 7000,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "H:\\Documents\\Development\\ghost\\content\\data\\ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "H:\\Documents\\Development\\ghost\\content"
+  }
+}
